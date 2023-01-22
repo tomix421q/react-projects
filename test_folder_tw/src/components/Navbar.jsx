@@ -18,7 +18,7 @@ const Navbar = () => {
           <div onClick={() => setNav(!nav)} className='cursor-pointer'>
             <AiOutlineMenu size={30} />
           </div>
-          <h1 className='text-2xl sm:text-3xl lg:text-4x1 px-2'>
+          <h1 className='text-2xl sm:text-2xl lg:text-4x1 px-2'>
             Best <span className='font-bold'>Eats</span>
           </h1>
           <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
@@ -41,8 +41,8 @@ const Navbar = () => {
         {/* Cart button */}
         {/*  */}
         <button className='bg-black text-white md:flex items-center py-2 rounded-full'>
-          <BsFillCartFill size={20} className='mr-2 ' />
-          Cart
+          <BsFillCartFill size={20} />
+          <p className='hidden md:block ml-1'> Card</p>
         </button>
         {/*  */}
         {/* Mobile menu */}

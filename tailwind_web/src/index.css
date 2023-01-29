@@ -5,3 +5,12 @@
 body {
   background-color: #000300;
 }
+
+@layer components {
+  .bigBg {
+    @apply;
+  }
+  .bigBgVideo {
+    @apply object-cover w-full h-screen absolute;
+  }
+}

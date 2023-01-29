@@ -3,7 +3,7 @@ import { CgMenuGridR } from 'react-icons/cg'
 import { TfiClose } from 'react-icons/tfi'
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(!false)
 
   const handleNav = () => {
     setNav(!nav)
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
       <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
-      <ul className='flex hidden '>
+      <ul className='hidden md:flex'>
         <li className='p-4'>Home</li>
         <li className='p-4'>Company</li>
         <li className='p-4'>Resources</li>
@@ -20,16 +20,16 @@ const Navbar = () => {
         <li className='p-4'>Contact</li>
       </ul>
 
-      <div onClick={handleNav}>
-        {!nav ? <TfiClose size={20} /> : <CgMenuGridR size={20} />}
+      <div onClick={handleNav} className='md:hidden'>
+        {!nav ? <TfiClose size={30} /> : <CgMenuGridR size={35} />}
       </div>
 
       {/* MOBILE VERSION NAV  */}
       <div
         className={
           !nav
-            ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300]'
-            : 'fixed left-[-100%]'
+            ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] md:hidden ease-in duration-500'
+            : 'fixed left-[-100%] '
         }
       >
         <h1 className='w-full text-3xl font-bold text-[#00df9a] ml-4 mt-7'>

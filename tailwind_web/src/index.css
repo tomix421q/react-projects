@@ -7,10 +7,4 @@ body {
 }
 
 @layer components {
-  .bigBg {
-    @apply;
-  }
-  .bigBgVideo {
-    @apply object-cover w-full h-screen absolute;
-  }
 }

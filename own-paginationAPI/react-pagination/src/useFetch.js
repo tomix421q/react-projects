@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import paginate from './utils'
 const url = 'https://jsonplaceholder.typicode.com/comments'
 
 export const useFetch = () => {
@@ -8,7 +9,7 @@ export const useFetch = () => {
   const getProduct = async () => {
     const response = await fetch(url)
     const data = await response.json()
-    setData(data)
+    setData(paginate(data))
 
     setLoading(false)
   }

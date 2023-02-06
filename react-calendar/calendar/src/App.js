@@ -11,8 +11,17 @@ const App = () => {
     setDate(date)
   }
 
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    notes.map((note) => {
+      return <h1>{note}</h1>
+    })
+  }
+
+  console.log(notes)
+
   const handleNoteChange = (date, note) => {
-    setNotes({ ...notes, [moment(date).format('YYYY-MM-DD')]: note })
+    setNotes({ note })
   }
 
   const renderDay = (props, currentDate, isSelected) => {
@@ -20,7 +29,7 @@ const App = () => {
     const note = notes[moment(currentDate).format('YYYY-MM-DD')]
     console.log(note)
     return (
-      <div {...props} className='text-8xl bg-gray-500'>
+      <div {...props}>
         {props.children}
         {note && <div>ahgoooo</div>}
         <h1>hi</h1>
@@ -29,13 +38,14 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className='translate-x-[40%]'>
       <Calendar onChange={handleChange} value={date} renderDay={renderDay} />
       <input
         type='text'
         placeholder='Enter a note'
         onChange={(e) => handleNoteChange(date, e.target.value)}
       />
+      <button onClick={handleSubmit}>Save</button>
     </div>
   )
 }

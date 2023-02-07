@@ -1,23 +1,13 @@
-T02-1
-1-a
-2-b
-3-c
-4-b
-5-b
+ T04-1
 
+ 1-pokial sa neprerusi el. prud
 
-T03-1
+ 2-diamagneticke:ziadne magneticke vlastnosti,
+ paramagneticke:slabe magneticke vlastnosti
+ feromagneticke:vykazuju silnu magneticku cinnost
 
-1-b
-2-a
-3-b
-4-b
-5-b
+ 3-diamagnetickymi alebo feromagnetickymi materialmy
 
+ 4-umoznuje urcit smer magnetickeho toku v priestore pomocou pravej ruky,udava ze ak drzite pravu ruku tak ze palec ukazuje smer toku elektrickeho prudu potom ukazovak ukazuje smer magnetickeho toku
 
- T06-1
- 1-a
- 2-b
- 3-b
- 4-c
- 5-a
+ 5-pomocou amperoveho pravidla pravej ruky ak je napojena na el. obvod,alebo pomocou magnetu

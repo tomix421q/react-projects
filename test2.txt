@@ -11,3 +11,16 @@
  4-umoznuje urcit smer magnetickeho toku v priestore pomocou pravej ruky,udava ze ak drzite pravu ruku tak ze palec ukazuje smer toku elektrickeho prudu potom ukazovak ukazuje smer magnetickeho toku
 
  5-pomocou amperoveho pravidla pravej ruky ak je napojena na el. obvod,alebo pomocou magnetu
+
+ T06-2
+
+ 1-elektrica praca je mnozstvo energie ktora sa prenasa el. prudom pocas urciteho casoveho obdobia
+
+ 2-vykon jednosmerneho prudu je mnozstvo energie ktoru prenasa prud za jednotku casu
+ vzorec:P=V*I   P=vykon(W)  V=napetie(V)   I=prud(A)
+
+ 3-paralelne
+
+ 4-R = R1 + R2 + R3 + ... + Rn
+
+ 5-1/R = 1/R1 + 1/R2 + 1/R3 + ...1/Rn

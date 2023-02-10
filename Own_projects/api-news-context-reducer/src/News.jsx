@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useGlobalContext } from './context'
 
 const News = () => {
-  const [isLoading, data] = useGlobalContext()
-
+  const { isLoading, data } = useGlobalContext()
+  console.log(data)
   if (isLoading) {
     return <div>Loading...</div>
   }

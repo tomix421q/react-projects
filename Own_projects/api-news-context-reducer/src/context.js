@@ -8,8 +8,8 @@ const API_ENDPOINT = 'https://newsapi.org/v2/everything?'
 
 const initialState = {
   isLoading: true,
-  query: 'react',
   data: [],
+  query: 'react',
 }
 
 //

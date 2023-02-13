@@ -1,26 +1,11 @@
- T04-1
+T04-2
 
- 1-pokial sa neprerusi el. prud
+1- uzavrety magneticky obvod je z magneticky vodiveho materialu,napriklad zo zeleza.Magneticky tok prechadza magnetickym obvodom v uzavretej slucke, ziaden magneticky tok nemoze uniknut z obvodu.
 
- 2-diamagneticke:ziadne magneticke vlastnosti,
- paramagneticke:slabe magneticke vlastnosti
- feromagneticke:vykazuju silnu magneticku cinnost
+2-je to pravidlo ktora urcuje smer pohybu vodica prudu v magnetickom poli.ak polozime lavu ruku na vodic tak aby prsty boli v smere prudu a magneticke silociary vstupovali do dlane potom natiahnuty palec ukazuje smer sily ktorou posobi magneticke pole na vodic
 
- 3-diamagnetickymi alebo feromagnetickymi materialmy
+3-
 
- 4-umoznuje urcit smer magnetickeho toku v priestore pomocou pravej ruky,udava ze ak drzite pravu ruku tak ze palec ukazuje smer toku elektrickeho prudu potom ukazovak ukazuje smer magnetickeho toku
+4-
 
- 5-pomocou amperoveho pravidla pravej ruky ak je napojena na el. obvod,alebo pomocou magnetu
-
- T06-2
-
- 1-elektrica praca je mnozstvo energie ktora sa prenasa el. prudom pocas urciteho casoveho obdobia
-
- 2-vykon jednosmerneho prudu je mnozstvo energie ktoru prenasa prud za jednotku casu
- vzorec:P=V*I   P=vykon(W)  V=napetie(V)   I=prud(A)
-
- 3-paralelne
-
- 4-R = R1 + R2 + R3 + ... + Rn
-
- 5-1/R = 1/R1 + 1/R2 + 1/R3 + ...1/Rn
+5-

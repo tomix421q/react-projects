@@ -29,7 +29,6 @@ const AppProvider = ({ children }) => {
         type: SET_NEWS,
         payload: { data: data.articles },
       })
-      console.log(data)
     } catch (error) {
       console.log(error)
     }

@@ -1,4 +1,4 @@
-import { SET_LOADING, SET_NEWS, SET_SEARCH } from './actions'
+import { REMOVE_STORY, SET_LOADING, SET_NEWS, SET_SEARCH } from './actions'
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -9,6 +9,11 @@ const reducer = (state, action) => {
         ...state,
         isLoading: false,
         data: action.payload.data,
+      }
+    case REMOVE_STORY:
+      return {
+        ...state,
+        data: state.data.filter((story) => story.index !== action.payload),
       }
     default:
       throw new Error(`no matching '${action.type}' action type`)

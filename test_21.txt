@@ -4,8 +4,8 @@ T04-2
 
 2-je to pravidlo ktora urcuje smer pohybu vodica prudu v magnetickom poli.ak polozime lavu ruku na vodic tak aby prsty boli v smere prudu a magneticke silociary vstupovali do dlane potom natiahnuty palec ukazuje smer sily ktorou posobi magneticke pole na vodic
 
-3-
+3-navzajom sa pritahuju
 
-4-
+4-dvere zo vzdialenym odomknutim ,elektromotory
 
-5-
+5-elektromagneticka indukcia je jav pri ktorom vo vodici dochadza ku vznika indukovaneho napetia a indukovaneho prudu

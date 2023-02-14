@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useReducer } from 'react'
 
-import { SET_LOADING, SET_NEWS, HANDLE_SEARCH } from './actions'
+import { SET_LOADING, SET_NEWS, HANDLE_SEARCH, REMOVE_STORY } from './actions'
 import reducer from './reducer'
 
 const API_ENDPOINT = 'https://newsapi.org/v2/everything?'
@@ -34,6 +34,10 @@ const AppProvider = ({ children }) => {
     }
   }
 
+  const removeStory = (index) => {
+    dispatch({ type: REMOVE_STORY, payload: index })
+  }
+
   useEffect(() => {
     fetchStories(
       `${API_ENDPOINT}q=${state.query}&apiKey=5ccbd445d5304f17a66c1ed2877a9108`
@@ -41,7 +45,9 @@ const AppProvider = ({ children }) => {
   }, [])
 
   return (
-    <AppContext.Provider value={{ ...state }}>{children}</AppContext.Provider>
+    <AppContext.Provider value={{ ...state, removeStory }}>
+      {children}
+    </AppContext.Provider>
   )
 }
 

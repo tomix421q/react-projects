@@ -13,7 +13,7 @@ const reducer = (state, action) => {
     case REMOVE_STORY:
       return {
         ...state,
-        data: state.data.filter((story) => story.index !== action.payload),
+        data: state.data.filter((item) => item.author !== action.payload),
       }
     default:
       throw new Error(`no matching '${action.type}' action type`)

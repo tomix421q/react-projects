@@ -15,7 +15,7 @@ const News = () => {
   return (
     <section className='bg-zinc-900 text-gray-200 grid md:p-12 p-8 max-w-[1250px] m-auto md:grid-cols-2 lg:grid-cols-3'>
       {data.map((item, index) => {
-        const { name, author, content, title, urlToImage, url } = item
+        const { author, content, title, urlToImage, url } = item
         return (
           <article
             key={index}
@@ -46,7 +46,7 @@ const News = () => {
             </div>
 
             <button
-              onClick={() => removeStory(index)}
+              onClick={() => removeStory(author)}
               className='text-lg my-6 m-auto flex  bg-red-400 p-2 rounded-xl hover:scale-110 duration-200 '
             >
               Remove item...

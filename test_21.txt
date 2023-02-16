@@ -9,3 +9,8 @@ T04-2
 4-dvere zo vzdialenym odomknutim ,elektromotory
 
 5-elektromagneticka indukcia je jav pri ktorom vo vodici dochadza ku vznika indukovaneho napetia a indukovaneho prudu
+
+
+ T08-1
+
+ 1-generator striedaveho prudu funguje na principe ze ked sa meni magneticky tok  blizkosti vodica vodic generuje elektricke napetie,v pripade ked je magnet v pokoji a otaca sa slucka meni sa magneticky tok cez tuto slucku.Tento magneticky tok moze byt zmenseny alebo zvacseny v zavislosti od toho ako sa magnet pohybuje voci slucke. 

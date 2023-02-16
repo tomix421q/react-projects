@@ -18,7 +18,7 @@ const News = () => {
         const { name, author, content, title, urlToImage, url } = item
         return (
           <article
-            key={name}
+            key={index}
             className='max-w-[500px]  mx-auto text-sm  md:p-10 md:text-[16px] mb-20 border-b-2 shadow-sm shadow-gray-700 hover:scale-105 duration-300 '
           >
             <div className='min-h-[250px]'>

@@ -14,3 +14,24 @@ T04-2
  T08-1
 
  1-generator striedaveho prudu funguje na principe ze ked sa meni magneticky tok  blizkosti vodica vodic generuje elektricke napetie,v pripade ked je magnet v pokoji a otaca sa slucka meni sa magneticky tok cez tuto slucku.Tento magneticky tok moze byt zmenseny alebo zvacseny v zavislosti od toho ako sa magnet pohybuje voci slucke. 
+
+ 2- frekvencia striedaveho prudu udava pocet cyklov alebo kmitov ktore prechadzaju cez urcity bod za jednu sekundu,vyjadruje sa v jednotkach hertz(hz) co znamena pocet cyklov za sekundu.
+
+ 3-efektivna hodnota striedaveho prudu (rms) je hodnota ktora sa pouziva na opis charakteru striedaveho prudu a to najme z hladiska jeho energetickeho ucinku
+
+ 4-ze zmeny v napeti a prude na rezistore sa vyskytuju sucasne a v rovnakej faze.Faza sa tyka casoveho posunu medzi zmenou napetia a zmenou prudu.
+
+ 5-b
+
+ T13b1 
+
+1-el. instalacia je sustava el. vedeni prvkov a zariadeni v budoce ktora sluzi na prenos elektrickej energie z pripojky distrubucnej siete k elektrickym spotrebitelom v roznych miestnostiach budovy.
+
+2-praca ktora sa vykonava za trvalej pritomnosti osoby,ktora je poverena dozorom a ktora je zodpovedna za dodrziavanie bezpocnestnych predpisov.
+
+3-je osoba s elektrotechnickym vzdelanim a s osvedcenim o odbornej sposobilosti v elektrotechnike, ano 21-elektrotechnik je znala osoba
+
+4-ano mozu 
+
+5-pokial su predpisane musia byt pouzivane 
+

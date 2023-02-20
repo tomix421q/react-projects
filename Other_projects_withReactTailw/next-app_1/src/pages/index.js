@@ -1,5 +1,8 @@
 import Hero from '@/components/Hero'
+import Slider from '../components/Slider'
+import { SliderData } from '../components/SliderData'
 import Head from 'next/head'
+import Instagram from '@/components/Instagram'
 
 export default function Home() {
   return (
@@ -15,6 +18,8 @@ export default function Home() {
         heading='Captur Photogpraphy'
         message='I capture moments in nature and keep them alive.'
       />
+      <Slider slides={SliderData} />
+      <Instagram />
     </>
   )
 }
